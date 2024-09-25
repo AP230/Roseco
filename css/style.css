@@ -1,18 +1,19 @@
-.hero-image {
-background-image: url("../img/bg.png");
-background-color: #cccccc;
-height: 900px;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-position: relative;
-}
 
-.hero-text {
-text-align: center;
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-color: white;
+.splash { 
+
+background-image: url("../img/bg.png"); background-size: cover; background-position: bottom; 
+color: #FFF; 
+padding-top: 40px; 
+height: 835px; 
 }
+.btn-outline-light.active, .btn-outline-light:hover {
+border-radius: 45px; 
+padding: 5px 15px; 
+background-color: rgba(225, 225, 225,.5);
+border: 1px solid #FFF; 
+color: #FFF; 
+} 
+.btn-outline-light{ 
+padding: 5px 15px; 
+border: none; 
+} 
